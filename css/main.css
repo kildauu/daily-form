@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+.gradient--bg {
+	font-family: 'Arial', sans-serif;
+	background: -webkit-linear-gradient(53deg, rgb(255, 80, 44) 0%, rgb(231, 45, 100) 70%, rgb(222, 31, 119) 100%);
+	background: -o-linear-gradient(53deg, rgb(255, 80, 44) 0%, rgb(231, 45, 100) 70%, rgb(222, 31, 119) 100%);
+	background: -ms-linear-gradient(53deg, rgb(255, 80, 44) 0%, rgb(231, 45, 100) 70%, rgb(222, 31, 119) 100%);
+	background: -moz-linear-gradient(53deg, rgb(255, 80, 44) 0%, rgb(231, 45, 100) 70%, rgb(222, 31, 119) 100%);
+	background: linear-gradient(37deg, rgb(255, 80, 44) 0%, rgb(231, 45, 100) 70%, rgb(222, 31, 119) 100%);
+
+}
+.sign-up-form {
+	width: 460px;
+	height: 470px;
+	padding: 30px;
+	border-radius: 4px;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.sign-up-form__header-logo {
+	display: inline-block;
+	margin-right: 10px;
+}
+.sign-up-form__header-title {
+	display: inline-block;
+	color:  #1b1c1d;
+	font-size: 24px;
+	font-weight: 700;
+}
+.sign-up-form__header-descr {
+	color:  #797b7f;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-top: 10px;
+}
+.sign-up-form__link {
+	color:  #ea355a;
+	text-decoration: none;
+}
+.sign-up-form__body {
+	font-size: 0;
+	margin-top: 15px;
+}
+.sign-up-form__field-name,
+.sign-up-form__field-lastname,
+.sign-up-form__field-email,
+.sign-up-form__field-password {
+	display: inline-block;
+	height: 40px;
+	border-radius: 4px;
+	background-color:  #f0f0f0;
+	color:  #797b7f;
+	font-size: 14px;
+	font-weight: 400;
+	border: 1px solid transparent;
+	text-indent: 10px;
+	margin-top: 15px;
+}
+.sign-up-form__field-name,
+.sign-up-form__field-lastname {
+	width: 193px;
+}
+.sign-up-form__field-email,
+.sign-up-form__field-password {
+	width: 400px;
+}
+.sign-up-form__field-name {
+	margin-right: 14px;
+}
+.sign-up-form__button {
+	margin-top: 15px;
+	border: 1px solid transparent;
+	border-radius: 6px;
+	background-color:  #ea355a;
+	box-shadow: 0px 5px 0px 0px #bd1962;
+	width: 400px;
+	height: 50px;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	outline: none;
+}
+.sign-up-form__button:hover {
+	cursor: pointer;
+	transform: translate(0, 2px);
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	transition: 0.2s;
+}
+.sign-up-form__button:active {
+	box-shadow: none;
+	transform: translate(0, 5px);
+	transition: 0.2s;
+}
+.sign-up-form__policy {
+	margin-top: 20px;
+	color:  #797b7f;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+}
